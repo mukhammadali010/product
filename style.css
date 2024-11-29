@@ -1,0 +1,16 @@
+
+
+
+.container{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid black;
+    gap: 10px;
+}
+
+label{
+    font-size: 25px;
+    font-weight: bold;
+}
