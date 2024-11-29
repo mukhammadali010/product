@@ -16,8 +16,8 @@ btn.addEventListener('click' , (e)=>{
         let res =  soldPrice.value - productPrice.value;
         let total =  productPrice.value * productCount.value - soldPrice.value * soldCount.value; 
         
-        profit1.value = res;
-        profit2.value = total;
+        profit1.value = res + ' sum';
+        profit2.value = total + ' sum';
     }
     
 })
