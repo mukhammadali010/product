@@ -14,7 +14,7 @@ btn.addEventListener('click' , (e)=>{
     if(soldPrice.value !== 0 && productPrice.value !== 0){
 
         let res =  soldPrice.value - productPrice.value;
-        let total =  productPrice.value * productCount.value - soldPrice.value * soldCount.value; 
+        let total =  res * soldCount.value; 
         
         profit1.value = res + ' sum';
         profit2.value = total + ' sum';
